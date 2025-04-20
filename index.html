@@ -30,7 +30,7 @@ body {
 </div>
 <script>
 // 修改为你的后台API地址
-const apiUrl = 'http://qq10086vip.spearcolor.cn/admin/api/get_redirect.php';
+const apiUrl = 'http://45.207.214.203/admin/api/get_redirect.php';
 
 // 设置图片显示1秒后开始跳转
 setTimeout(() => {
@@ -43,7 +43,7 @@ setTimeout(() => {
     if (result.code === 0 && result.data.url) {
       window.location.href = result.data.url;
     } else {
-      document.getElementById('message').textContent = '未设置跳转地址';
+      document.getElementById('message').textContent = 'https://cli.im/url?67f48df291f715fd5f65c8e101485b81';
     }
   })
   .catch(error => {
